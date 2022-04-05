@@ -1,0 +1,59 @@
+body {
+  background: #0c2e5a;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+.app {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.change-bg-color {
+  margin-top: 50px;
+  background:rgb(88, 202, 103);
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+li {
+  margin: 8px 0;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+del {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 200px;
+}
+
+label .remove {
+  display: none;
+  color: red;
+}
+
+label:hover .remove {
+  display: inline-block;
+  margin-left: 10px;
+  color: red;
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
